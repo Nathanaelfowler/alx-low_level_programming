@@ -5,9 +5,9 @@
  * Return 0
  */
 
-int main()
+int main(void)
 { 
-	char 1[]="Programming is like building a multilingual puzzle
+	char Mystr[]="Programming is like building a multilingual puzzle
 
-	puts(1);	
+	puts(Mystr);	
 }
