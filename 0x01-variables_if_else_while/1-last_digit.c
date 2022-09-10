@@ -13,7 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand(0) - RAND_MAX / 2;
-	l = n % 10
+	l = n % 10;
 	/* your code goes here */
 	if (l > 5)
 	{
