@@ -25,6 +25,8 @@ int main(void)
 			{
 				continue;
 			}
+			if (i != 8 && j != 9)
+
 				putchar(',');
 				putchar(' ');
 			}
