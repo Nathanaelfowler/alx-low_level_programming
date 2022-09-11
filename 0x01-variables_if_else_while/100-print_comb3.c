@@ -16,8 +16,8 @@ int main(void)
 			if (i != j)
 			{
 				putchar(i);
-				putchar(j);		
-			if (i == 9)
+				putchar(j);
+				if (i == 9)
 			{
 				continue;
 			}
