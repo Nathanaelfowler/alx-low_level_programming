@@ -26,10 +26,12 @@ int main(void)
 				continue;
 			}
 			if (i != 8)
-			       if (j != 9)
+			{
+			 	if (j != 9)
 
-				putchar(',');
-				putchar(' ');
+					putchar(',');
+					putchar(' ');
+			}
 			}
 		}
 	}
