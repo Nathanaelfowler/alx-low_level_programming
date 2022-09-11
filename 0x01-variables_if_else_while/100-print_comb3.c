@@ -7,7 +7,7 @@ int main(void)
 {
 	int i;
 	int j;
-	for (i = '10'; i <= '99'; i++)
+	if (i = '0'; i <= '99'; i++)
 	{
 		putchar(i);
 		if (i == '99')
@@ -15,7 +15,7 @@ int main(void)
 			continue;
 		}
 	
-	for (j = '10'; j <= '99'; j++)
+	if (j = '0'; j <= '99'; j++)
 	{
 		putchar(j);
 		if (j == '99')
