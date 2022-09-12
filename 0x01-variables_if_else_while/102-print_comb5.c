@@ -15,12 +15,12 @@ int main(void)
 			if (i != j)
 			{
 				putchar(' ');
-				if (j != i)
+				if (i != j)
 				{
 					putchar(i);
 					putchar(j);
-					putchar(j);
 					putchar(i);
+					putchar(j);
 
 					if (i == 98 && j == 99)
 						continue;
