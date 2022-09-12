@@ -12,16 +12,16 @@ int main(void)
 	{
 		for (j = i + 1; j <= '9'; j++)
 		{
-			if (i != i)
+			if (i != j)
 			{	putchar(' ');
-				if (j != j)
+				if (j != i)
 				{
 					putchar(i);
+					putchar(j);
+					putchar(j);
 					putchar(i);
-					putchar(j);
-					putchar(j);
 
-					if (i == '98' && j == '99')
+					if (i == 98 && j == 99)
 						continue;
 					putchar(',');
 					putchar(' ');
