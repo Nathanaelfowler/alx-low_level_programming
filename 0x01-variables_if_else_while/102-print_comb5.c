@@ -13,16 +13,14 @@ int main(void)
 		for (j = i + 1; j <= '9'; j++)
 		{
 			if (i != j)
-			if (i != j)
 			{
+				putchar(i);
+				putchar(j);
 				putchar(' ');
 				if (j != i)
-				if (j != i)
 				{
-					putchar(i);
 					putchar(j);
 					putchar(i);
-					putchar(j);
 
 					if (i == 98 && j == 99)
 						continue;
