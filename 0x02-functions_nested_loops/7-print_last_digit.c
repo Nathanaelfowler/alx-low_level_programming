@@ -3,7 +3,7 @@
 /**
  * print_last_digit - entry point
  * @c : an int
- * Return: 0
+ * Return: 'd'
  */
 int print_last_digit(int c)
 {
