@@ -6,11 +6,9 @@
  * @n: an int
  * Return: 0
  */
-int add(int, int)
+int add(int c, int n)
 {
-	int s;
-
-	s = c +n;
+	int s = c +n;
 
 	_putchar('s');
 	return ('s');
