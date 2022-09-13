@@ -2,7 +2,7 @@
 
 /**
  * print_sign - entry point
- * @n - an int
+ * @n - an int that is used to check for positive, zero or negative
  * Return: 0
  */
 int print_sign(int n)
@@ -20,7 +20,7 @@ int print_sign(int n)
 	if (n < 0)
 	{
 		_putchar('-');
-		return(-1);
+		return (-1);
 	}
 	_putchar('\n');
 	return (0);
