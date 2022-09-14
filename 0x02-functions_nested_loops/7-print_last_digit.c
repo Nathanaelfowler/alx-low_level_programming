@@ -2,17 +2,15 @@
 
 /**
  * print_last_digit - entry point
- * @c : an int
- * Return: value of the last digit
+ * @n: an int
+ * Return: 0
  */
-int print_last_digit(int c)
+int print_last_digit(int n)
 {
-	int d = c % 10;
+	n = n % 10;
 
-	if (d < 0)
-		d *= -1;
-
-	_putchar(d + '0');
-
-	return ('d');
+	if ( n < 0)
+		n = -n;
+		_putchar(n + '0');
+		return (n);
 }
