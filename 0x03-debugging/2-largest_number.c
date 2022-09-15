@@ -6,7 +6,7 @@
  * @a: an int
  * @b: an int
  * @c: an int
- * Return: largest
+ * Return: largest number
  */
 
 int largest_number(int a, int b, int c)
