@@ -6,14 +6,14 @@
  * @c:a char
  * Return: 0
  */
-int _isupper(char c)
+int _isupper(int c)
 {
-	if (isupper(c))
+	if (_isupper(c)) == 1
 	{
 		_putchar('c');
 		return (1);
 	}
-	else if (islower(c))
+	else if (_islower(c)) == 0
 	{
 		_putchar('c');
 		return (0);
