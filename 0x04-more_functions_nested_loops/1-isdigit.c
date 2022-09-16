@@ -9,7 +9,13 @@
 int _isdigit(int c)
 {
 	if (_isdigit(c))
+	{
+		_putchar(c);
 		return (1);
+	}
 	else
+	{
+		_putchar(c);
 		return (0);
+	}
 }
