@@ -13,10 +13,9 @@ int _isupper(int c)
 		_putchar('c');
 		return (1);
 	}
-	else if (_islower(c)) == 0
+	else
 	{
 		_putchar('c');
 		return (0);
 	}
-	return (0);
 }
