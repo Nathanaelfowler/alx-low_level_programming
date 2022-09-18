@@ -8,15 +8,15 @@ void more_numbers(void)
 {
 	int i, ti;
 
-	for (ti = 0; ti <= 10; ti++)
+	for (i = 0; i < 10; i++)
 	{
-		for (i = 0; i <= 14; i++)
+		for (ti = 0; ti < 15; ti++)
 		{
-			if (i >= 10)
+			if (ti >= 10)
 			{
-				_putchar((i / 10) + '0');
+				_putchar((ti / 10) + '0');
 			}
-			_putchar((i % 10) + '0');
+			_putchar((ti % 10) + '0');
 		}
 		_putchar('\n');
 	}
