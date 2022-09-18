@@ -25,6 +25,7 @@ int main(int j)
 		{
 			putchar(FizzBuzz);
 		}
-		putchar(' ');
 	}
+	putchar('\n');
+	return (0);
 }
