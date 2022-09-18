@@ -11,7 +11,11 @@ int main(int j)
 {
 	for (j = 1; j <= 100; j++)
 	{
-		if (j % 3 == 0)
+		if ((j % 3 == 0) && (j % 5 == 0))
+		{
+			printf("FizzBuzz");
+		}
+		else if (j % 3 == 0)
 		{
 			printf("Fizz");
 		}
@@ -19,13 +23,9 @@ int main(int j)
 		{
 			printf("Buzz");
 		}
-		else if (j % 3 == 0 && j % 5 == 0)
-		{
-			printf("FizzBuzz");
-		}
 		else
 		{
-			printf("%d ", j);
+			printf("%d", j);
 		}
 		if (j != 100)
 		{
