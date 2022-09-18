@@ -14,18 +14,22 @@ int main(int j)
 
 	for (j = 1; j <= 100; j++)
 	{
-		if (j % 3 == 0)
+		if (j == 100)
+			printf("%c", Buzz);
+		else if (j % 3 == 0)
 		{
 			printf("%c", Fizz);
 		}
-		if (j % 5 == 0)
+		else if (j % 5 == 0)
 		{
 			printf("%c", Buzz);
 		}
-		if (j % 3 == 0 && j % 5 == 0)
+		else if (j % 3 == 0 && j % 5 == 0)
 		{
 			printf("%c", FizzBuzz);
 		}
+		else
+			printf("%d ", j);
 	}
 	printf("\n");
 	return (0);
