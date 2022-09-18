@@ -7,20 +7,24 @@
  */
 int main(int j)
 {
+	char Fizz;
+	char Buzz;
+	char FizzBuzz;
+
 	for (j = 1; j <= 100; j++)
 	{
 		if (j % 3 == 0)
 		{
-			_putchar(Fizz);
+			putchar(Fizz);
 		}
 		if (j % 5 == 0)
 		{
-			_putchar(Buzz);
+			putchar(Buzz);
 		}
 		if (j % 3 == 0 && j % 5 == 0)
 		{
-			_putchar(FizzBuzz);
+			putchar(FizzBuzz);
 		}
-		_putchar(' ');
+		putchar(' ');
 	}
 }
