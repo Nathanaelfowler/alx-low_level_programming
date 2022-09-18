@@ -15,17 +15,17 @@ int main(int j)
 	{
 		if (j % 3 == 0)
 		{
-			putchar(Fizz);
+			printf("%c", Fizz);
 		}
 		if (j % 5 == 0)
 		{
-			putchar(Buzz);
+			printf("%c", Buzz);
 		}
 		if (j % 3 == 0 && j % 5 == 0)
 		{
-			putchar(FizzBuzz);
+			printf("%c", FizzBuzz);
 		}
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
