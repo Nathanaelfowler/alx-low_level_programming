@@ -9,28 +9,28 @@
  */
 int main(int j)
 {
-	char Fizz;
-	char Buzz;
-	char FizzBuzz;
-
 	for (j = 1; j <= 100; j++)
 	{
-		if (j == 100)
-			printf("%c", Buzz);
-		else if (j % 3 == 0)
+		if (j % 3 == 0)
 		{
-			printf("%c", Fizz);
+			printf("Fizz");
 		}
 		else if (j % 5 == 0)
 		{
-			printf("%c", Buzz);
+			printf("Buzz");
 		}
 		else if (j % 3 == 0 && j % 5 == 0)
 		{
-			printf("%c", FizzBuzz);
+			printf("FizzBuzz");
 		}
 		else
+		{
 			printf("%d ", j);
+		}
+		if (j != 100)
+		{
+			printf(" ");
+		}
 	}
 	printf("\n");
 	return (0);
