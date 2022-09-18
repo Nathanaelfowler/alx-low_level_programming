@@ -7,10 +7,12 @@
  */
 void print_line(int n)
 {
-	while (n <= 10)
+	int l = 1;
+
+	while (l <= n)
 	{
 		_putchar('_');
-		n++;
+		l++;
 
 		if (n <= 0)
 		{
