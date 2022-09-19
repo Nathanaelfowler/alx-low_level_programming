@@ -4,10 +4,14 @@
 
 /**
  * _strlen - entry point
- * @S: a char
+ * @s: a char
  * Return: 0
  */
 int _strlen(char *s)
 {
-	_strlen(s);
+	int len = 0;
+
+	while (*(s + len) != '\0')
+		len++;
+	return (0);
 }
