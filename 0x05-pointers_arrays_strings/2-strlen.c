@@ -5,7 +5,7 @@
 /**
  * _strlen - entry point
  * @s: a char
- * Return: 0
+ * Return: length
  */
 int _strlen(char *s)
 {
@@ -13,5 +13,5 @@ int _strlen(char *s)
 
 	while (*(s + len) != '\0')
 		len++;
-	return (0);
+	return (len);
 }
