@@ -11,9 +11,8 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	for (n = 0; src[n] != '\0'; n++)
-	{
-		dest[n] = src[n];
-	}
+	strcpy(dest, src);
+	printf("strcpy(dest, src) : %s\n", dest);
+
 	return (dest);
 }
