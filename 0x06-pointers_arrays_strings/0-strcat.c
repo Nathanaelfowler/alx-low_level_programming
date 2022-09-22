@@ -18,6 +18,5 @@ char *_strcat(char *dest, char *src)
 	{
 		dest[len1 + n] = src[n];
 	}
-	printf("name is: %s\n", dest);
 	return (dest);
 }
