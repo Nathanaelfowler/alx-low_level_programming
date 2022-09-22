@@ -14,17 +14,5 @@ int _strcmp(char *s1, char *s2)
 
 	flag = strcmp(s1, s2);
 
-	if (flag < 0)
-	{
-		printf("flag: %d\n", flag);
-	}
-	else if (flag > 0)
-	{
-		printf("flag: %d\n", flag);
-	}
-	else
-	{
-		printf("flag: %d\n", flag);
-	}
-	return (0);
+	return (flag);
 }
