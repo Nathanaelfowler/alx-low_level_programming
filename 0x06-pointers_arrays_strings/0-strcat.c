@@ -10,14 +10,14 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int j = 0, i = 0;
+	int len1, len2, n;
+	len1 = strlen(dest);
+	len2 = strlen(src);
 
-	while (dest[i++])
-		j++;
-
-	for (i = 0; src[i]; i++)
+	for (n = 0; n <= len2; n++)
 	{
-		dest[j] = src[i];
+		dest[len1 + n] = src[n];
 	}
+	printf("name is: %s\n", dest);
 	return (dest);
 }
