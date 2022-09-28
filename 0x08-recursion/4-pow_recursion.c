@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * _pow_recursion - a function that returns the value of x raised to the power of y
+ * _pow_recursion - function that returns the value of x ^ y
  * @x: a base int
  * @y: a power int
  * Return: 0
