@@ -10,11 +10,19 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	printf("%d\n", argc);
 
-	for (i = 0; i < argc; i++)
+	
+	if (argc <= 1)
 	{
-		printf("%s", argv[i]);
+		printf("0\n");
+		return (1);
+	}
+	if (argc > 1)
+	{
+		for (i = 0; i < argc; i++)
+		{
+			printf("%s\n", argv[i]);
+		}
 	}
 	return (0);
 }
