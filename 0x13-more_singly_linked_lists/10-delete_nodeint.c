@@ -11,4 +11,31 @@
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
+	listint_t *temp, *delnode;
+	unsigned int i = 0;
+
+	if (head == NULL || *head == NULL)
+		return (-1);
+
+	if (index == 0)
+	{
+		delnode = (*head)->next;
+		free(*head);
+		*head = delnode;
+		return (1);
+	}
+	temp = *head;
+
+	while (i < index - 1)
+	{
+		if (temp->next == NULL)
+			return (-1);
+		temp = temp->next; /*traversing thru thr list*/
+		i++;
+	}
+	delnode = temp->next;
+	temp->next = delnode->next;
+	free(delnode);
+
+	return (1);
 }
